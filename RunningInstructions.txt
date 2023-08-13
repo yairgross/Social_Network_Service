@@ -9,18 +9,6 @@ HOW TO RUN OUR CODE:
   6. Type: make
   7. Type: ./bin/BGSclient <ip adress> <port>
 
-EXAMPLES OF COMMANDS:
-  1. Register: REGISTER alice 1234 12-12-1212
-  2. Login: LOGIN alice 1234 1
-  3. Logout: LOGOUT
-  4. Follow: FOLLOW 0 bob
-  5. Unfollow: FOLLOW 1 bob
-  6. Post: POST Hello World
-  7. PM: PM alice Hello alice
-  8. Logstat: LOGSTAT
-  9. Stat: STAT alice|bob
-  10. Block: BLOCK alice
-
 
 NOTE: The set of filtered words is at Server\src\main\bgu\spl\net\api\bidi\ConnectionsImpl.java
   look for the String[] forbiddenWords field
